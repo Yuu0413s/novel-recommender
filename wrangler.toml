@@ -1,0 +1,8 @@
+name = "novel-recommender"
+main = "src/index.ts"
+compatibility_date = "2026-07-14"
+compatibility_flags = ["nodejs_compat"]
+
+# 1時間に1回定期実行
+[triggers]
+crons = ["0 * * * *"]
