@@ -5,4 +5,4 @@ compatibility_flags = ["nodejs_compat"]
 
 # 1時間に1回定期実行
 [triggers]
-cron = ["0 * * * *"]
+crons = ["0 * * * *"]
